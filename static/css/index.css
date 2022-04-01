@@ -1,0 +1,185 @@
+/* CSS Document */
+* { margin: 0; padding: 0; font-family: Arial, Helvetica, 微软雅黑, sans-serif; }
+a { color: #333; text-decoration: none; }
+ul, ol { list-style-type: none; }
+img { border: 0; max-width: 100%; }
+.container { width: 1200px; margin: 0 auto; position: relative; }
+.clear { clear: both; }
+body { overflow-x: hidden;}
+h1, h2, h3, h4, h5, h6, b { font-weight: normal; }
+input, textarea, select { outline: medium; }
+p { text-align: justify; }
+.fl { float: left; }
+.fr { float: right; }
+
+.header { height: 140px; background: url(../image/header-bg.png) no-repeat center #f2f2f2; }
+.header .logo { width: 670px; height: 120px; float: left; padding: 10px 0; }
+.header .tel { float: right; font-size: 34px; color: #cf000a; letter-spacing: 1px; background: url(../image/tel.png) no-repeat center left rgba(255,255,255,.6); padding-left: 50px; margin: 50px 0; }
+
+.nav { background: #333; text-align: center; height: 60px; }
+.nav ul { display: inline-block; }
+.nav li { float: left; }
+.nav li a { display: inline-block; width: 176px; height: 60px; color: #fff; line-height: 60px; }
+.nav li:hover a { background: #cf000c; }
+
+.nav2 { background: #333; text-align: center; height: 60px; }
+.nav2 ul { float: left; overflow:hidden;}
+.nav2 li { float: left; }
+.nav2 li a { display: inline-block; width: 130px; height: 60px; color: #fff; line-height: 60px; }
+.nav2 li:hover a { background: #cf000c; }
+.nav2 .Iback{  float:left; width:30px;}
+.nav2 .Iback a{ width:214px; height:60px; line-height:60px; background: url(../image/nav-icon.png) no-repeat #cf000c; color:#fff; display:inline-block; background-position: 35px; text-indent: 40px;}
+
+.banner { height: 550px; position: relative; }
+.banner .bd li { background: #666; height: 550px; text-align: center; }
+.banner .bd li a { display: inline-block; width: 100%; height: 100%; }
+.banner .hd { text-align: center; position: absolute; bottom: 30px; width: 100%; }
+.banner .hd ul { display: inline-block; }
+.banner .hd ul li { width: 14px; height: 14px; border-radius: 10px; background: #fff; float: left; margin: 0 18px; border:2px solid #fff;}
+.banner .hd ul li.on { background:rgba(255,255,255,.4); }
+.banner .hd a { display: inline-block; position: absolute; width: 48px; height: 90px; bottom: 200px; border-radius: 4px; opacity: 0; transition: all 0.3s linear 0s; }
+.banner:hover .hd a { opacity: 1; }
+.banner .hd .prev { background: url(../image/prev.png) no-repeat center rgba(0,0,0,.5); left: 10%; }
+.banner .hd .next { background: url(../image/next.png) no-repeat center rgba(0,0,0,.5); right: 10%; }
+
+.wz{ padding:40px 0; overflow:hidden; background:#f2f2f2;}
+.wz li{ width:300px; float:left; margin: 20px 50px;}
+.wz li .img{ width:300px; height:300px; border-radius:150px; overflow:hidden;}
+.wz li .text{ width:300px; text-align:center;}
+.wz li .text .title{ font-size:28px; color:#000; font-weight:bold; letter-spacing:1px; margin-bottom:10px; margin-top:20px;}
+.wz li .text .p{ font-size:16px; color:#333; line-height: 26px;}
+.wz li .text .btn{ text-align:center; margin-top:20px;}
+.wz li .text .btn a{ width:178px; height:38px; border:1px solid #ccc; font-size:14px; color:#666; text-align:center; line-height:38px; display:inline-block;}
+.wz li:hover .text .btn a{ border:1px solid #cf000c; background:#cf000c; color:#fff;}
+
+.Iabout{ padding:50px 0; overflow:hidden;}
+.Iabout-text{ width:640px; float:left;}
+.Iabout-text .title{ font-size:34px; color:#000; line-height:34px; margin-bottom:30px;}
+.Iabout-text .title i{ display:inline-block; width:4px; height:34px; background:#cf000c; float:left; margin-right:20px;}
+.Iabout-text .text{ font-size:16px; color:#333; text-indent:2em;    line-height: 28px; height:280px;}
+.Iabout-text .text p{ margin-bottom:10px;}
+.Iabout-text .btn{}
+.Iabout-text .btn a{ display:inline-block; width:200px; height:50px; line-height:50px; text-align:center; font-size:16px; color:#fff; background:#cf000c;}
+
+.Iabout-img{ float:right; width:500px;}
+.Iabout-img .bd{ width:500px; height:350px;}
+.Iabout-img .hd{ margin-top:10px;}
+.Iabout-img .hd li{ width:40px; height:40px; font-size:18px; text-align:center; line-height:40px; color:#fff; background:#333; float:left; margin-right:10px; cursor:pointer;}
+.Iabout-img .hd li.on{ background:#cf000c;}
+
+.Ihz{ background:#f2f2f2; padding:50px 0; overflow:hidden;}
+.Ihz .title{ font-size:34px; color:#000; line-height:34px; margin-bottom:30px;}
+.Ihz .title i{ display:inline-block; width:4px; height:34px; background:#cf000c; float:left; margin-right:20px;}
+.Ihz .text{ font-size:16px; color:#333; text-indent:2em;    line-height: 28px;}
+
+.Ihz-list{ margin-top:20px;}
+.Ihz-list li{ float:left; margin: 0 32px;}
+.Ihz-list li .img{ width:120px; height:120px; margin:0 auto;}
+.Ihz-list li .p{ font-size:16px; color:#333; text-align:center; margin-top:20px;}
+
+.Ipro{ background:url(../image/Izp-bg.jpg) no-repeat center top #f2f2f2; overflow:hidden; padding:50px 0;}
+.Ipro-title{ font-size:34px; color:#fff; line-height:34px; margin-bottom:30px;}
+.Ipro-title i{ display:inline-block; width:4px; height:34px; background:#cf000c; float:left; margin-right:20px;}
+
+.Ipro-list{ background:#fff; padding:30px 30px 0px; overflow:hidden;}
+.Ipro-list li{ float:left; width:360px; margin-right:30px; margin-bottom:10px;}
+.Ipro-list li:nth-child(3n){ margin-right:0;}
+.Ipro-list li .img{ width:360px; height:280px; overflow:hidden;}
+.Ipro-list li .img img{ transition: all 0.3s linear 0s;}
+.Ipro-list li:hover .img img{ transform: scale(1.1,1.1);}
+.Ipro-list li .title{ font-size:16px; text-align:center; color:#333; line-height:40px;}
+
+.Ipro .btn{ text-align:center; margin-top:30px;}
+.Ipro .btn a{ width:220px; height:50px; display:inline-block; background:#cf000c; color:#fff; line-height:50px; text-align:center;}
+
+.Inews{ padding:50px 0;}
+.Inews-title{ font-size:34px; color:#000; line-height:34px; margin-bottom:30px;}
+.Inews-title i{ display:inline-block; width:4px; height:34px; background:#cf000c; float:left; margin-right:20px;}
+
+.Inews-list{ overflow:hidden;}
+.Inews-hot{ width:270px; float:left;}
+.Inews-hot .img{ width:270px; height:200px; overflow:hidden;}
+.Inews-hot .title{ padding:16px 10px; background:#333; font-size:18px; color:#fff; letter-spacing:1px; line-height: 28px;}
+
+.Inews-list ul{ overflow:hidden; float:right;}
+.Inews-list li{ width:276px; float:left; margin-left: 24px;}
+.Inews-list li .date{ width:108px; height:70px; background:url(../image/news-date.png) no-repeat center; font-size:16px; color:#333;}
+.Inews-list li .date span{ display:inline-block;    margin: 25px 0 0px 36px;    letter-spacing: 1px;}
+.Inews-list li .date p{text-indent: 36px; letter-spacing: 1px;}
+.Inews-list li .title{ margin:36px 0 10px 24px; font-size:18px; color:#000; letter-spacing:1px;}
+.Inews-list li .text{ font-size:14px; color:#666; line-height:22px; letter-spacing:1px; padding-left:24px;}
+.Inews-list li .btn{ padding-left:24px; margin-top:36px;}
+.Inews-list li .btn span{ display:inline-block; background:url(../image/news-icon1.png) no-repeat center left; padding: 2px 0 2px 36px; font-size:16px; color:#333;}
+.Inews-list li:hover .btn span{ background:url(../image/news-icon2.png) no-repeat center left; color:#cf000c;}
+
+.Inews .Ibtn{ text-align:center; margin-top:40px;}
+.Inews .Ibtn a{ display:inline-block; width:218px; height:48px; border:1px solid #e6e6e6; font-size:16px; color:#999; text-align:center; line-height:48px; transition: all 0.3s linear 0s;}
+.Inews .Ibtn a:hover{ border:1px solid #cf000c; background:#cf000c; color:#fff;}
+
+.Imessage{ background:#f2f2f2; padding:40px 0; overflow:hidden;}
+.Imessage-title{ font-size:34px; color:#000; line-height:34px; margin-bottom:30px;}
+.Imessage-title i{ display:inline-block; width:4px; height:34px; background:#cf000c; float:left; margin-right:20px;}
+
+.Imessage .ly{ width:500px; float:left;}
+.Imessage .ly .text{ font-size:16px; color:#333; text-indent:2em; line-height:26px;}
+.Imessage .ly .box{}
+.Imessage .ly .box li{ margin-top:20px;}
+.Imessage .ly .box li .name{ background:url(../image/message-icon1.png) no-repeat center left #fff; background-position:20px; text-indent:30px;}
+.Imessage .ly .box li .tel{background:url(../image/message-icon2.png) no-repeat center left #fff; background-position:20px; text-indent:30px;}
+.Imessage .ly .box li input[type="text"]{ width:458px; height:38px; font-size:14px; color:#666; border:1px solid #e6e6e6; padding:0 20px;}
+.Imessage .ly .box li textarea{ height:128px; border:1px solid #e6e6e6; width:458px; padding:10px 20px; font-size:14px; color:#666;background:url(../image/message-icon3.png) no-repeat center left #fff; background-position:20px 14px; text-indent:30px;}
+.Imessage .ly .box li input[type="submit"]{ width:140px; height:40px; background:#cf000c; color:#fff; font-size:16px; border:none;}
+
+.Ilink{ width:600px; float:right;}
+.Ilink-list{}
+.Ilink-list li{ width:180px; height:70px; float:left;margin-right: 30px;    margin-bottom: 30px;}
+.Ilink-list li:nth-child(3n){ margin-right:0;}
+
+.footer{ height:340px; background:url(../image/footer-bg.jpg) no-repeat center; overflow:hidden;}
+.footer-left{ width:742px; float:left; margin-left:60px;}
+.footer-nav{ width:742px; overflow:hidden; margin-top:40px; border-bottom:1px solid #fff; padding-bottom:20px;}
+.footer-nav dl{ float:left;}
+.footer-nav dl.fnav1{ width:122px;}
+.footer-nav dl.fnav2{ width:620px;}
+.footer-nav dd{ float:left; margin-right:26px;}
+.footer-nav dd:nth-child(5){ text-align:right; margin-right:0;}
+.footer-nav dd a{ color:#fff; font-size:16px; letter-spacing:1px; display:inline-block;    width: 102px; height:40px; line-height:40px;}
+
+.footer-contact{ width:742px; margin-top: 40px; overflow: hidden;}
+.footer-logo{ float:left; width:100px; margin-right:20px; margin-top:8px;}
+.footer-lx{ float:left; width:360px;}
+.footer-lx dt{ font-size:18px; color:#fff; font-family:"宋体";}
+.footer-lx dd{ font-size:16px; color:#fff; margin-top:10px; padding-left:30px;}
+.footer-lx .dz{ background:url(../image/footer-dz.png) no-repeat center left;}
+.footer-lx .tel{ background:url(../image/footer-tel.png) no-repeat center left;}
+.footer-lx .mail{ background:url(../image/footer-mail.png) no-repeat center left;}
+
+.footer-right{ margin:60px 60px 0 0; float:right;}
+.footer-right .wx{ width:204px; height:204px;}
+.footer-right .title{ font-size:14px; color:#fff; letter-spacing:0.8px; margin-top:20px;}
+
+.footer-bottom{ height:40px; line-height:40px; font-size:14px; text-align:center; background:#000; color:#fff;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
