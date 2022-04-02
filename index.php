@@ -6,9 +6,9 @@
 <meta name="renderer" content="webkit|ie-comp|ie-stand">
 <meta name="renderer" content="webkit">
 
-<title>{$classtitle} 罗汉果-德昌祥农业科技开发有限公司</title>
-<meta name="keywords" content="{$classkeywords}">
-<meta name="description" content="{$classdescription}">
+<title>罗汉果-德昌祥农业科技开发有限公司</title>
+<meta name="keywords" content="">
+<meta name="description" content="">
 
 <link rel="stylesheet" type="text/css" href="static/css/index.css">
 </head>
